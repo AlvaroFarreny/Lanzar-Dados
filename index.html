@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Actividad Lanzar Dados</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>Álvaro Farreny Boixader - Lanzamiento de dados</h1>
+        <p>Pulsa dos veces para lanzar los dados, luego pulsalo una vez para detener los dados</p>
+        <div class="contenedor">
+            <div class="dado" ondblclick="lanzardados()" onclick="parardados()">
+                <img id="dadoA" src="img/1.png" style="height:100px"/>
+                <p id="resultadoA">Ha salido un 1</p>
+            </div>
+            <div class="dado" ondblclick="lanzardados()" onclick="parardados()">
+                <img id="dadoB" src="img/1.png" style="height:100px"/>
+                <p id="resultadoB">Ha salido un 1</p>
+            </div>
+        </div>
+        <p id="suma">Aún no se han lanzado los dados...</p>
+</body>
+<script src='main.js'></script>
+</html>
